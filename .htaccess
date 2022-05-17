@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^([A-Za-z0-9-_]+)$ index.php?id=$1
+RewriteRule ^([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/?$ index.php?id=$1&aid=$2
+RewriteRule ^([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/?$ index.php?id=$1&aid=$2&aid2=$3
+
