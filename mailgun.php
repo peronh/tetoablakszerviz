@@ -19,7 +19,7 @@ if (isset($_POST['sendmail']))
 	$domain   = MAILGUN_HOST;
 	$params   = [
 		'from'                  => MAIL_FROM_ADDRESS,
-		'to'                    => filter_var('pronyecz@gmail.com', FILTER_VALIDATE_EMAIL),
+		'to'                    => filter_var(MAIL_FROM_ADDRESS, FILTER_VALIDATE_EMAIL),
 		'subject'               => 'Üzenet a Tetőtéri ablakszervíz weboldalról',
 		'template'              => 'tetoteriaablakszerviz',
 		'h:X-Mailgun-Variables' => '{"name": "'.$name.'", "email": "'.$email.'", "message": "'.$message.'"}',
