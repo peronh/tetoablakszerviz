@@ -22,7 +22,6 @@ define("DB_PASSWORD", $_ENV ['DB_PASSWORD']);
 define("DB_NAME", $_ENV ['DB_NAME']);
 define("DB_PORT", $_ENV ['DB_PORT']);
 
-//require_once BASE_URL . 'config/config.php';
 require_once BASE_URL . 'render.php';
 
 $site = new Render();
