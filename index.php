@@ -1,6 +1,6 @@
 <?php
 session_start();
-error_reporting(E_ALL);
+error_reporting(0);
 setlocale(LC_ALL, 'hu_HU.UTF-8');
 date_default_timezone_set('Europe/Budapest');
 
