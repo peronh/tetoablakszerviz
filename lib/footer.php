@@ -35,7 +35,8 @@
                                 <li>
                                     Elérhetőségek
                                     <ul>
-                                        <li class="mt-3"><i class="fa fa-map-marker"></i><a href="#" aria-disabled="true">4281 Létavértes </a></li>
+                                        <li class="mt-3"><i class="fa fa-user"></i><a href="#" aria-disabled="true">Zolnai Lajos egyéni vállalkozó </a></li>
+                                        <li><i class="fa fa-map-marker"></i><a href="#" aria-disabled="true">4281 Létavértes </a></li>
                                         <li><i class="fa fa-phone"></i><a href="tel:+36203164611">+36 20 316 4611</a></li>
                                         <li><i class="fa fa-envelope"></i><a href="mailto:info@tetoteriablakszerviz.hu">info@tetoteriablakszerviz.hu</a></li>
                                     </ul>
