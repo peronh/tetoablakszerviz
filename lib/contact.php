@@ -17,12 +17,13 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-3 contact-info mb-5 mb-lg-0">
+				<p><i class="fa fa-user"></i>Zolnai Lajos egyéni vállalkozó</p>
 				<p><i class="fa fa-map-marker"></i>4281 Létavértes </p>
 				<p><i class="fa fa-phone"></i><a href="tel:+36203164611">+36 20 316 4611</a></p>
 				<p><i class="fa fa-envelope"></i><a href="mailto:info@tetoteriablakszerviz.hu">info@tetoteriablakszerviz.hu</a></p>
 			</div>
 			<div class="col-lg-9">
-				<?php include 'mailgun.php'?>
+				<?php include_once 'mailgun.php';?>
 				<?php if(!empty($statusMsg)){ ?>
                     <div class="alert alert-<?php echo $status; ?> alert-dismissible fade show status-msg" role="alert">
 						<?php echo $statusMsg; ?>
