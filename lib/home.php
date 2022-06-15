@@ -17,7 +17,7 @@
 		<div class="hero-slide-item set-bg" data-setbg="/img/tetoteri_ablak_beepites_1.jpg" style="background-position-x: right;">
 			<div class="slide-inner">
 				<div class="slide-content">
-					<h2>Velux <br>tetőtéri ablak <br> szervíz</h2>
+					<h2>Velux <br>tetőtéri ablak <br>beépítés és szervíz</h2>
 					<a href="/kapcsolat" class="site-btn sb-light">Ajánlatkérés</a>
 				</div>
 			</div>
@@ -25,7 +25,7 @@
 		<div class="hero-slide-item set-bg" data-setbg="/img/tetoteri_ablak_beepites_7.jpg">
 			<div class="slide-inner">
 				<div class="slide-content">
-					<h2>Velux <br>tetőtéri ablak <br> szervíz</h2>
+					<h2>Velux <br>tetőtéri ablak <br>beépítés és szervíz</h2>
 					<a href="/kapcsolat" class="site-btn sb-light">Ajánlatkérés</a>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 		<div class="hero-slide-item set-bg" data-setbg="/img/tetoteri_ablak_beepites_8.jpg"  style="background-position-x: right;">
 			<div class="slide-inner">
 				<div class="slide-content">
-					<h2>Velux <br>tetőtéri ablak <br> szervíz</h2>
+					<h2>Velux <br>tetőtéri ablak <br>beépítés és szervíz</h2>
 					<a href="/kapcsolat" class="site-btn sb-light">Ajánlatkérés</a>
 				</div>
 			</div>

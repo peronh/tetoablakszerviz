@@ -23,7 +23,7 @@
 				<p><i class="fa fa-envelope"></i><a href="mailto:info@tetoteriablakszerviz.hu">info@tetoteriablakszerviz.hu</a></p>
 			</div>
 			<div class="col-lg-9">
-				<?php include_once 'mailgun.php';?>
+				<?php include 'mailgun.php';?>
 				<?php if(!empty($statusMsg)){ ?>
                     <div class="alert alert-<?php echo $status; ?> alert-dismissible fade show status-msg" role="alert">
 						<?php echo $statusMsg; ?>
