@@ -15,6 +15,7 @@ define("API_KEY", $_ENV ['API_KEY']);
 define("ENDPOINT", $_ENV ['ENDPOINT']);
 define("MAILGUN_HOST", $_ENV ['MAILGUN_HOST']);
 define("MAIL_FROM_ADDRESS", $_ENV ['MAIL_FROM_ADDRESS']);
+define("SMTP_PASS", $_ENV ['SMTP_PASS']);
 
 define("DB_HOST", $_ENV ['DB_HOST']);
 define("DB_USER", $_ENV ['DB_USER']);
