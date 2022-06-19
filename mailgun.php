@@ -25,7 +25,7 @@ if (isset($_POST['sendmail']))
 		$mail->Username   = 'support@tetoteriablakszerviz.hu';
 		$mail->Password   = SMTP_PASS;
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-		$mail->Port       = 587;
+		$mail->Port       = 465;
 
 		$mail->setFrom(MAIL_FROM_ADDRESS, 'Zolnai Lajos');
 		$mail->addAddress(MAIL_FROM_ADDRESS, 'Zolnai Lajos');
