@@ -33,7 +33,7 @@ if (isset($_POST['sendmail']))
 
 		//Content
 		$mail->isHTML(true);
-		$mail->Subject = utf8_decode('Üzenet tetoteriablakszerviz.hu weboldalról');
+		$mail->Subject = 'Üzenet tetoteriablakszerviz.hu weboldalról';
 		$mail->setLanguage('hu', BASE_URL.'/vendor/phpmailer/phpmailer/language/');
 		$mail->Body    = '<html lang="hu" style="margin: 0; padding: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 14px;">
 <head>
