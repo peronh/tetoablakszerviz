@@ -26,6 +26,7 @@ if (isset($_POST['sendmail']))
 		$mail->Password   = SMTP_PASS;
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 		$mail->Port       = 465;
+		$mail->CharSet = "UTF-8";
 
 		$mail->setFrom(MAIL_FROM_ADDRESS, 'Zolnai Lajos');
 		$mail->addAddress(MAIL_FROM_ADDRESS, 'Zolnai Lajos');
@@ -34,7 +35,6 @@ if (isset($_POST['sendmail']))
 		$mail->isHTML(true);
 		$mail->Subject = utf8_decode('Üzenet tetoteriablakszerviz.hu weboldalról');
 		$mail->setLanguage('hu', BASE_URL.'/vendor/phpmailer/phpmailer/language/');
-		$mail->CharSet = "UTF-8";
 		$mail->Body    = '<html lang="hu" style="margin: 0; padding: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 14px;">
 <head>
 	<meta name="viewport" content="width=device-width" />
