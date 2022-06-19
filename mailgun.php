@@ -59,7 +59,7 @@ if (isset($_POST['sendmail']))
 							<table  cellpadding="0" cellspacing="0">
 								<tr>
 									<td class="content-block" style="padding: 0 0 20px;vertical-align: top;text-align: center;">
-										<h3 style="text-align:cente;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color: #000;margin: 40px 0 0;line-height: 1.2;font-weight: 400;color: #5f6368!important;text-decoration: none!important;">Új üzenete érkezett '.$name.' ügyféltől.</h3>
+										<h3 style="text-align:cente;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color: #000;margin: 40px 0 0;line-height: 1.2;font-weight: 400;color: #5f6368!important;text-decoration: none!important;">'.utf8_decode('Új üzenete érkezett '.$name.' ügyféltől.').'</h3>
 									</td>
 								</tr>
 								<tr>
