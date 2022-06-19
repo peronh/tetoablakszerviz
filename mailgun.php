@@ -64,18 +64,18 @@ if (isset($_POST['sendmail']))
 								</tr>
 								<tr>
 									<td class="content-block" style="color: #5f6368!important;text-decoration: none!important;padding: 0 0 20px;vertical-align: top;">
-										Név: '.$name.'
+										'.utf8_decode('Név: '.$name).'
 									</td>
 								</tr>
 								<tr>
 									<td class="content-block" style="padding: 0 0 20px;vertical-align: top;color: #5f6368!important;text-decoration: none!important;">
-										Email: '.$email.'
+										'.utf8_decode('Email: '.$email).'
 									</td>
 								</tr>
 
 								<tr>
 									<td class="content-block" style="color: #5f6368!important;text-decoration: none!important;padding: 0 0 20px;vertical-align: top;">
-										Üzenet: '.$message.'
+										'.utf8_decode('Üzenet: '.$message).'
 									</td>
 								</tr>
 							</table>
