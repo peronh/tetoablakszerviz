@@ -19,14 +19,13 @@ if (isset($_POST['sendmail']))
 
 	$mail = new PHPMailer();
 	try {
-//		$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 		$mail->isSMTP();
 		$mail->Host       = 'mail.tetoteriablakszerviz.hu';
 		$mail->SMTPAuth   = true;
 		$mail->Username   = 'support@tetoteriablakszerviz.hu';
 		$mail->Password   = SMTP_PASS;
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-		$mail->Port       = 465;
+		$mail->Port       = 587;
 
 		$mail->setFrom(MAIL_FROM_ADDRESS, 'Zolnai Lajos');
 		$mail->addAddress(MAIL_FROM_ADDRESS, 'Zolnai Lajos');
@@ -35,6 +34,7 @@ if (isset($_POST['sendmail']))
 		$mail->isHTML(true);
 		$mail->Subject = utf8_decode('Üzenet tetoteriablakszerviz.hu weboldalról');
 		$mail->setLanguage('hu', BASE_URL.'/vendor/phpmailer/phpmailer/language/');
+		$mail->CharSet = "UTF-8";
 		$mail->Body    = '<html lang="hu" style="margin: 0; padding: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 14px;">
 <head>
 	<meta name="viewport" content="width=device-width" />
@@ -59,23 +59,23 @@ if (isset($_POST['sendmail']))
 							<table  cellpadding="0" cellspacing="0">
 								<tr>
 									<td class="content-block" style="padding: 0 0 20px;vertical-align: top;text-align: center;">
-										<h3 style="text-align:cente;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color: #000;margin: 40px 0 0;line-height: 1.2;font-weight: 400;color: #5f6368!important;text-decoration: none!important;">'.utf8_decode('Új üzenete érkezett '.$name.' ügyféltől.').'</h3>
+										<h3 style="text-align:cente;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color: #000;margin: 40px 0 0;line-height: 1.2;font-weight: 400;color: #5f6368!important;text-decoration: none!important;">Új üzenete érkezett '.$name.' ügyféltől</h3>
 									</td>
 								</tr>
 								<tr>
 									<td class="content-block" style="color: #5f6368!important;text-decoration: none!important;padding: 0 0 20px;vertical-align: top;">
-										'.utf8_decode('Név: '.$name).'
+										Név: '.$name.'
 									</td>
 								</tr>
 								<tr>
 									<td class="content-block" style="padding: 0 0 20px;vertical-align: top;color: #5f6368!important;text-decoration: none!important;">
-										'.utf8_decode('Email: '.$email).'
+										Email: '.$email.'
 									</td>
 								</tr>
 
 								<tr>
 									<td class="content-block" style="color: #5f6368!important;text-decoration: none!important;padding: 0 0 20px;vertical-align: top;">
-										'.utf8_decode('Üzenet: '.$message).'
+										Üzenet: '.$message.'
 									</td>
 								</tr>
 							</table>
