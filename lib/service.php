@@ -28,7 +28,7 @@
                     <ul>
                         <li>új építésű tetőbe</li>
                         <li>Utólagos tetőtér beépítésnél</li>
-                        <li>Tatőablak csere</li>
+                        <li>Tetőablak csere</li>
                         <li>Minden márkájú tetőablak beépítés</li>
                         <li>Tetőablak beépítés után szükség szerint szakszerű belső káva kialakítása gipszkartonból festőkészre</li>
                         <li>Külső, belső rolók, árnyékolók felszerelése</li>
